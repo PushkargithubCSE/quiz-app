@@ -98,23 +98,26 @@ export default function Home() {
       <div className="w-full max-w-lg relative z-10">
         {/* Header badge */}
         <div className="flex justify-center mb-8">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full border border-gold/30 bg-gold/5 text-gold text-xs font-mono tracking-widest uppercase">
-            <span className="w-1.5 h-1.5 rounded-full bg-gold animate-pulse" />
-            Knowledge Challenge
-          </div>
-        </div>
+  <img
+    src="/image.png"
+    alt="Knowledge Challenge"
+    className="h-36 w-auto object-contain"
+  />
+</div>
 
         {/* Main card */}
         <div className="bg-slate/40 border border-gold/15 rounded-2xl p-8 glass-card">
           {/* Title */}
           <div className="text-center mb-8">
-            <div className="font-display text-5xl font-bold text-parchment mb-2 leading-tight">
-              Quiz<span className="gold-shimmer">Master</span>
-            </div>
-            <div className="deco-line w-32 mx-auto mt-4 mb-4" />
-            <p className="text-parchment/50 font-body text-sm leading-relaxed">
-              10 questions · 4 choices each · Instant results
-            </p>
+          <img
+  src="/logo1.png"
+  alt="QuizMaster"
+  className="h-22 w-auto object-contain mx-auto mb-4"
+/>
+<div className="deco-line w-32 mx-auto mt-4 mb-4" />
+<p className="text-parchment/50 font-body text-sm leading-relaxed">
+  10 questions · 4 choices each · Instant results
+</p>
           </div>
 
           {/* Stats row */}
@@ -278,13 +281,7 @@ export default function Home() {
         </div>
 
         {/* Categories */}
-        <div className="mt-6 flex flex-wrap gap-2 justify-center">
-          {["Science", "History", "Art", "Geography", "Technology", "Literature"].map((cat) => (
-            <span key={cat} className="px-3 py-1 rounded-full bg-parchment/5 border border-parchment/10 text-parchment/30 text-xs font-body">
-              {cat}
-            </span>
-          ))}
-        </div>
+       
       </div>
     </main>
   );
