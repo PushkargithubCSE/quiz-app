@@ -119,14 +119,14 @@ export default function Home() {
 </h2>
 <div className="deco-line w-32 mx-auto mt-3 mb-4" />
 <p className="text-parchment/50 font-body text-sm leading-relaxed">
-  10 questions · 4 choices each · Instant results
+  15 questions · 4 choices each · Instant results
 </p>
           </div>
 
           {/* Stats row */}
           <div className="grid grid-cols-3 gap-3 mb-8">
             {[
-              { num: "10", label: "Questions" },
+              { num: "15", label: "Questions" },
               { num: "4", label: "Options Each" },
               { num: "1", label: "Attempt Only" },
             ].map((s) => (

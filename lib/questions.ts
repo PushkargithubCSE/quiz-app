@@ -31,7 +31,7 @@ export const questions: Question[] = [
       "वार्ड बैठक / Ward Meeting",
       "ग्राम विकास समिति बैठक / Village Development Committee Meeting",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Panchayati Raj",
   },
   {
@@ -43,7 +43,7 @@ export const questions: Question[] = [
       "सरकारी अधिकारियों की उपस्थिति दिखाने के लिए / To show the presence of officials",
       "केवल योजनाओं की घोषणा के लिए / Only to announce schemes",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Panchayati Raj",
   },
   {
@@ -55,7 +55,7 @@ export const questions: Question[] = [
       "पंचायत योजना समिति / Panchayat Planning Committee",
       "ग्राम निगरानी समिति / Village Monitoring Committee",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Women Leadership",
   },
   {
@@ -67,7 +67,7 @@ export const questions: Question[] = [
       "केवल अधिकारियों द्वारा तैयार बजट / Budget prepared only by officials",
       "जिला स्तर की योजना / District level plan",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Panchayati Raj",
   },
   {
@@ -79,7 +79,7 @@ export const questions: Question[] = [
       "पंचायत का खर्च कम करना / Reducing Panchayat expenses",
       "बैठकों की संख्या बढ़ाना / Increasing meetings",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Women Leadership",
   },
   {
@@ -91,7 +91,7 @@ export const questions: Question[] = [
       "73वाँ संशोधन / 73rd Amendment",
       "86वाँ संशोधन / 86th Amendment",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     category: "Constitution",
   },
   {
@@ -103,14 +103,14 @@ export const questions: Question[] = [
       "24 अप्रैल 1993 / 24 April 1993",
       "2 अक्टूबर 2000 / 2 October 2000",
     ],
-    correctAnswer: 2,
+    correctAnswer: 3,
     category: "Constitution",
   },
   {
     id: 8,
     question: "संविधान के अनुसार पंचायती राज संस्थाओं में महिलाओं के लिए न्यूनतम आरक्षण कितना है?\nWhat is the minimum reservation for women in Panchayati Raj Institutions as per the Constitution?",
     options: ["10%", "25%", "33%", "60%"],
-    correctAnswer: 2,
+    correctAnswer: 3,
     category: "Constitution",
   },
   {
@@ -122,7 +122,7 @@ export const questions: Question[] = [
       "केवल आदेशों का पालन करना / Only following orders",
       "पंचायत भवन का प्रबंधन करना / Managing the Panchayat building",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Women Leadership",
   },
   {
@@ -134,7 +134,7 @@ export const questions: Question[] = [
       "महिलाओं की भागीदारी बढ़ाना / Increase participation",
       "उपरोक्त सभी / All of the above",
     ],
-    correctAnswer: 3,
+    correctAnswer: 4,
     category: "Women Leadership",
   },
   {
@@ -146,7 +146,7 @@ export const questions: Question[] = [
       "केवल सरकारी कर्मचारी / Only government employees",
       "केवल योजनाएँ / Only schemes",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Panchayati Raj",
   },
   {
@@ -158,7 +158,7 @@ export const questions: Question[] = [
       "अधिक राजस्व संग्रह / Higher revenue collection",
       "अधिक राजनीतिक बैठकें / More political meetings",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Women Leadership",
   },
   {
@@ -170,7 +170,7 @@ export const questions: Question[] = [
       "घर पर पढ़ाई को बढ़ावा देना / Encourage home learning",
       "स्कूल दूरी कम करना / Reduce school distance",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Panchayati Raj",
   },
   {
@@ -182,7 +182,7 @@ export const questions: Question[] = [
       "महिलाओं के लिए सुरक्षित और समान अवसर सुनिश्चित करना / Ensure safe and equal opportunities",
       "उपरोक्त सभी / All of the above",
     ],
-    correctAnswer: 3,
+    correctAnswer: 4,
     category: "Women Leadership",
   },
   {
@@ -194,7 +194,7 @@ export const questions: Question[] = [
       "आर्थिक गतिविधियों में वृद्धि / Increase in economic activities",
       "अधिक कर संग्रह / Higher tax collection",
     ],
-    correctAnswer: 1,
+    correctAnswer: 2,
     category: "Women Leadership",
   },
 ];
