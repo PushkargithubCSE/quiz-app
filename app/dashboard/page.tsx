@@ -205,8 +205,8 @@ export default function DashboardPage() {
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-8">
           {[
             { label: "Total Participants", value: participants.length.toString(), sub: "all time" },
-            { label: "Average Score", value: `${avgScore}/10`, sub: "mean score" },
-            { label: "Top Score", value: `${topScore}/10`, sub: "highest ever" },
+            { label: "Average Score", value: `${avgScore}/15`, sub: "mean score" },
+            { label: "Top Score", value: `${topScore}/15`, sub: "highest ever" },
             {
               label: "Pass Rate",
               value: participants.length > 0 ? `${Math.round((passCount / participants.length) * 100)}%` : "—",
@@ -447,7 +447,7 @@ export default function DashboardPage() {
                       label={{ value: "Participant #", position: "insideBottom", offset: -2, fill: "rgba(245,240,232,0.2)", fontSize: 10 }}
                     />
                     <YAxis
-                      domain={[0, 10]}
+                      domain={[0, 15]}
                       tick={{ fill: "rgba(245,240,232,0.3)", fontSize: 10 }}
                       axisLine={false}
                       tickLine={false}

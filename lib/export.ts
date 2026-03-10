@@ -91,8 +91,8 @@ export async function exportToPDF(participants: Participant[]): Promise<void> {
   doc.setTextColor(10, 10, 15);
   doc.setFontSize(10);
   doc.setFont("helvetica", "bold");
-  doc.text(`Average Score: ${avgScore}/10`, 20, 54);
-  doc.text(`Top Score: ${topScore}/10`, 80, 54);
+  doc.text(`Average Score: ${avgScore}/15`, 20, 54);
+  doc.text(`Top Score: ${topScore}/15`, 80, 54);
   doc.text(`Pass Rate (≥50%): ${participants.filter((p) => p.score / p.totalQuestions >= 0.5).length}/${participants.length}`, 140, 54);
 
   // Participants table

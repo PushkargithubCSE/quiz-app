@@ -114,7 +114,10 @@ export default function Home() {
   alt="QuizMaster"
   className="h-22 w-auto object-contain mx-auto mb-4"
 />
-<div className="deco-line w-32 mx-auto mt-4 mb-4" />
+<h2 className="font-display text-center text-parchment text-lg font-semibold leading-snug mt-3 mb-2">
+  Panchayati Raj & Women Leadership Quiz
+</h2>
+<div className="deco-line w-32 mx-auto mt-3 mb-4" />
 <p className="text-parchment/50 font-body text-sm leading-relaxed">
   10 questions · 4 choices each · Instant results
 </p>
