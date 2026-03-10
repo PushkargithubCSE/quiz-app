@@ -31,7 +31,7 @@ export const questions: Question[] = [
       "वार्ड बैठक / Ward Meeting",
       "ग्राम विकास समिति बैठक / Village Development Committee Meeting",
     ],
-    correctAnswer: 2,
+    correctAnswer: 1,
     category: "Panchayati Raj",
   },
   {
